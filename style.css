@@ -5,18 +5,42 @@ body{
     flex-direction: column;
     justify-content: space-between;
 }
-
-.container{}
-
-.grid{
-    border: 3px solid lightblue;
-    width: 1em;
-    height: 1em;
+#container{
+    display: flex;
+    justify-content: space-evenly;
+}
+#canvas{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    max-width: 70%;
+    max-height: 50%;
+
 }
 
-.controls{}
+.grid{
+    border: 0px solid lightblue;
+    background: lightblue;
+    width: 0.5em;
+    height: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colorPixel{
+    border: 0px solid darkblue;
+    background: darkblue;
+}
+
+
+#controls{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+   
+}
 
 .footer{}

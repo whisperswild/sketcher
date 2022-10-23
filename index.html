@@ -12,14 +12,16 @@
 </head>
 <body>
     <div id="header">
-            <button onclick="buildGrid(16);">Build Grid</button>
+
     </div>
     <div id="controls">
-
+        <button onclick="buildGrid();">Build Grid</button><br />
+        <input type="range" id="gridSize" min="10" max = "100" value="50">
+        <label for="gridSize">Select Pixel Size</label>
     </div>
-    <div id="container">
-
-    </div>
+        <div id="container">
+            <div id="canvas"></div>
+        </div>
     <div id="footer">
 
     </div>
