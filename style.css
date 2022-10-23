@@ -1,0 +1,22 @@
+.header{}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.container{}
+
+.grid{
+    border: 3px solid lightblue;
+    width: 1em;
+    height: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.controls{}
+
+.footer{}
